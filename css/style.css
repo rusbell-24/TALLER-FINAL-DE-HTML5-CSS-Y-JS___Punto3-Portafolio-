@@ -11,6 +11,7 @@ html{
   scroll-behavior: smooth;
 }
 
+
 /* MENU */
 .contenedor-header{
   background: #1e2326;
@@ -58,10 +59,10 @@ html{
   display: none;
 }
 
+
 /* SECCION INICIO*/
 .inicio {
-  background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-  url(img/fondo.jpg);
+  background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1));
   background-size: cover;
   height: 100vh;
   color: #fff;
@@ -69,7 +70,7 @@ html{
   align-items: center;
 }
 
-.inicio .container-banner  {
+.inicio .contenedor-banner  {
   padding: 20px;
   background-color: #1e2326;
   max-width: 350px;
@@ -79,7 +80,7 @@ html{
   border-radius: 40px;
 }
 
-.inicio .container-banner img {
+.inicio .contenedor-banner img {
   margin-top: 30px;
   border: 10px solid #1cb698;
   display: block;
@@ -88,18 +89,18 @@ html{
   border-radius: 100%;
 }
 
-.inicio .container-banner h1 {
+.inicio .contenedor-banner h1 {
   margin-top: 40px;
   font-size: 36px;
   font-family: "Righteous";
 }
 
-.inicio .container-banner h2 {
+.inicio .contenedor-banner h2 {
   font-size: 15px;
   font-weight: normal;
 }
 
-.inicio .container-banner .redes a {
+.inicio .contenedor-banner .redes a {
   color: #fff;
   display: inline-block;
   text-decoration: none;
@@ -113,10 +114,12 @@ html{
   transition: .3s;
 }
 
-.inicio .container-banner .redes a:hover{
+.inicio .contenedor-banner .redes a:hover{
   background-color: #1cb698;
 }
 
+
+/*SECCION SOBRE MI*/
 .sobremi {
   background-color: #1e2326;
   color: #fff;
@@ -136,9 +139,10 @@ html{
 }
 
 .sobremi .contenido-seccion p{
+  text-align: justify;
   font: 18px;
   line-height: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .sobremi .contenido-seccion p span {
@@ -153,7 +157,7 @@ html{
   width: 50%;
 }
 .sobremi .fila .col h3{
-  font-size: 28px;
+  font-size: 30px;
   font-family: "Righteos";
   margin-bottom: 25px;
 }
@@ -201,6 +205,8 @@ html{
   font-size: 30px;
   margin-bottom: 10px;
 }
+
+
 /*SECCION SKILLS*/
 
 .skills{
@@ -458,13 +464,16 @@ html{
 .portafolio .galeria .proyecto .overlay .enunciado {
   display: none;
   font-size: 14px;
-  transition: 1s;
+  margin-bottom: 10px;
+}
+
+.portafolio .galeria .proyecto .overlay .enunciado p{
+  margin-bottom: 20px;
 }
 
 .portafolio .galeria .proyecto .overlay .enunciado a{
   text-decoration: none;
   margin: 10px 20px;
-  margin-top: 20px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 20px;
@@ -495,7 +504,6 @@ html{
 
 /*SECCION CONTACTO*/
 .contacto{
-  background-image: url(img/fondo-contacto.png);
   background-color: #1e2326;
   color: #fff;
   padding: 50px 0;
